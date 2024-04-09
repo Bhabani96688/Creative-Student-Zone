@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/imageViewDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/download"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:src="@drawable/down" />
+
+
+</FrameLayout>
+
+
